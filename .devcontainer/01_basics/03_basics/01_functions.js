@@ -38,4 +38,12 @@ function loginUserMessage(username = "Asim Ali"){
     return " ' " + username + " Just logged In ' "
 
 }
-console.log(loginUserMessage("Saim Ayub"));
+// console.log(loginUserMessage("Saim Ayub"));
+// Question: javascript function that finds the mean of 5 numbers:
+function functionMean(num1,num2,num3,num4,num5){
+    let sum = num1 + num2 + num3 + num4 + num5
+    let mean = sum / 5
+    return mean 
+}
+let output = functionMean (1,2,4,5,9)
+console.log(output);

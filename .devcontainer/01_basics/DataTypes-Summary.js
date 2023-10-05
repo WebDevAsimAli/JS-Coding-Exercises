@@ -39,7 +39,8 @@ console.log(typeof myFunction);
 // Stack(primitive data Types ) And Heap (Non Primitive Data Types)
 // Stack copy the value and Heap use the originol reference of the memory
 
-let myInstagram = "AsimAli34" // Stack Memory example
+// Stack Memory example
+let myInstagram = "AsimAli34" 
 let anotherAccount = myInstagram
 anotherAccount = "Asi.m34"
 console.log(myInstagram);

@@ -34,7 +34,21 @@ myArr.shift()
 //  joins comboined our array and also convert to string 
 
 const newArr = myArr.join()
-console.log(myArr);
-console.log(newArr);
-console.log(typeof myArr);
-console.log(typeof newArr);
+// console.log(myArr);
+// console.log(newArr);
+// console.log(typeof myArr);
+// console.log(typeof newArr);
+
+// Slice and splice 
+// The splice() method of Array instances changes the contents of an array by removing or replacing existing elements and/or adding new elements 
+
+// The slice() method of Array instances returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.
+
+console.log("A  " , myArr);
+const myn1 = myArr.slice(1,3) 
+console.log(myn1);
+console.log("B  " , myArr);
+
+const myn2 = myArr.splice(1,3)
+console.log("c  " , myArr);
+console.log(myn2);

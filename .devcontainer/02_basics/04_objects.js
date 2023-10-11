@@ -58,6 +58,32 @@ console.log(Object.entries(tinderUsder));
 // when you loop in object and came a value , then you can ask for existence of value
 
 console.log(tinderUsder.hasOwnProperty('isLoggedIN'));
+// part 2 : "Destructuring of an object"
 
+const course = {
+    courseName: "JS Hindi course",
+    price: 999,
+    courseInstructor:"Hitesh sir"
+}
+
+// course.courseInstructor
+const {courseInstructor: Instructor} = course
+console.log(Instructor);
+
+// JSON API Structure 
+
+// {
+//     "courseName": "JS Hindi",
+//    "TEACHERname": "Hitesh",
+//    "price" : "999"
+// }
+
+[
+    {},
+    {},
+    {},
+]
+
+// https://jsonformatter.org/
 
 
